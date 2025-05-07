@@ -49,7 +49,44 @@ Can we predict if a customer will accept a coupon offer while driving? What fact
 	- Confirmed zero missing values in retained columns and 12 637 rows (loss: 47 rows from drops + duplicates).
 
 
----
+### Hypothesis
+- People who visit bars more than once a month are more likely to accept bar coupons.
+- Younger drivers (under 30 years old) tend to accept coupons more than older drivers.
+- Drivers who don’t have kids in the car are more open to accepting bar coupons.
+- Widowed drivers are less likely to accept coupons compared to others.
+- If a person goes to inexpensive restaurants often and earns less than $50,000, they are more likely to accept coupons — they value - savings.
+- Occupation matters too — people in non-physical or social jobs are more likely to accept bar coupons than those in jobs like farming or fishing.
+
+## Independent Analysis
+- Coffee House Coupon Acceptance:
+	- By Passenger:
+		- Passengers like friends and partners significantly increase acceptance rates.
+		- Drivers alone are less likely to accept coffee house coupons.
+		- Drivers with kids accept coffee coupons at moderate rates — not as high as with friends or partners.
+	- By Time:
+		- Highest acceptance is seen in the morning (10AM), likely aligning with coffee consumption habits.
+		- Acceptance dips slightly at 2PM and 6PM, suggesting less interest in coffee later in the day.
+	- By Weather:
+		- Sunny weather shows the highest coupon acceptance.
+		- Rainy and snowy days lead to lower acceptance, possibly due to reduced willingness to detour.
+	- By Age:
+		- Younger drivers (particularly 21–30 age range) accept coffee coupons more frequently.
+		- Older age groups (above 40) show lower acceptance, hinting that younger demographics are more spontaneous or coffee-inclined.
+
+- Carry Out & Take Away Coupon Acceptance:
+	- By Passenger:
+		- Drivers alone show the highest acceptance — likely because carryout is convenient when driving solo.
+		- Passengers like kids or friends lead to moderate acceptance.
+		- Partner passengers slightly reduce acceptance, possibly due to joint meal planning or dine-in preference.
+	- By Time:
+		- 2PM and 6PM are the peaks for acceptance — aligning with lunch and dinner times.
+		- Morning (10AM) has noticeably low acceptance, since carryout food is less relevant at that hour.
+	- By Weather:
+		- Sunny days again yield higher acceptance.
+		- Snowy days significantly reduce carryout coupon usage — likely due to comfort, safety, or logistics.
+	- By Age:
+		- Acceptance is steady across all age groups, but slightly higher among those under 35, possibly due to lifestyle convenience.
+		- Older age groups (50+) still show decent acceptance, indicating that carryout is broadly appealing.
 
 ## 💡 Recommendations
 - 
@@ -57,7 +94,7 @@ Can we predict if a customer will accept a coupon offer while driving? What fact
 ---
 
 ## 📁 Repository Contents
-- `coupon_analysis.ipynb`: Jupyter Notebook with full analysis and code.
+- `prompt.ipynb`: Jupyter Notebook with full analysis and code.
 - `data/`: Folder containing the dataset used.
 - `images/`: Folder containing exported plots.
 - `README.md`: Project overview and summary (this file).
@@ -65,7 +102,7 @@ Can we predict if a customer will accept a coupon offer while driving? What fact
 ---
 
 ## 🔗 Notebook Access
-👉 [View the Jupyter Notebook here]()
+👉 [View the Jupyter Notebook here](https://github.com/AIMLcert/PracticalApplication-1/blob/develop/prompt.ipynb)
 
 ---
 
